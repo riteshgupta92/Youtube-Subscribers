@@ -26,27 +26,22 @@ Before running this application, you must have the following installed:
 
 ## Folder Structure
 
-│
-├── /src
-│   ├── /controllers         
-│   │   └── subscribers.js   
-│   │
-│   ├── /models              
-│   │   └── subscribers.js   
-│   │
-│   ├── /routes             
-│   │   └── subscribers.js   
-│   │
-│   ├── Data.js             
-│   │
-│   ├── createDatabase.js    
-│   ├── index.html           
-│   └── server.js            
-│
-├── .env                     
-├── .gitignore             
-├── package.json            
-└── README.md               
+├─ src  
+│ ├─ controllers  
+│ │ └─ subscribers.js  
+│ ├─ models  
+│ │ └─ subscribers.js  
+│ ├─ routes  
+│ │ └─ subscribers.js  
+│ ├─ createDatabase.js  
+│ ├─ data.js 
+  ├─ index.html 
+│ ├─ server.js 
+├─ .env
+├─ .gitignore  
+├─ package-lock.json  
+├─ package.json  
+├─ readme.md              
 
 
 

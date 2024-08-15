@@ -35,7 +35,7 @@ Before running this application, you must have the following installed:
 │ │ └─ subscribers.js  
 │ ├─ createDatabase.js  
 │ ├─ data.js 
-  ├─ index.html 
+| ├─ index.html 
 │ ├─ server.js 
 ├─ .env
 ├─ .gitignore  

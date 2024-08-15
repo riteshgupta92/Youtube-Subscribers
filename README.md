@@ -34,14 +34,11 @@ Before running this application, you must have the following installed:
 │ ├─ routes  
 │ │ └─ subscribers.js  
 │ ├─ createDatabase.js  
-│ ├─ data.js 
-| ├─ index.html 
-│ ├─ server.js 
-├─ .env
+│ ├─ data.js  
+│ ├─ server.js  
 ├─ .gitignore  
 ├─ package-lock.json  
-├─ package.json  
-├─ readme.md              
+├─ package.json              
 
 
 

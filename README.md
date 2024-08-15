@@ -26,28 +26,27 @@ Before running this application, you must have the following installed:
 
 ## Folder Structure
 
-
 │
 ├── /src
-│   ├── /controllers         # Controller files handling business logic
-│   │   └── subscribers.js   # Functions for handling subscriber-related requests
+│   ├── /controllers         
+│   │   └── subscribers.js   
 │   │
-│   ├── /models              # Mongoose schemas and models
-│   │   └── subscribers.js   # Mongoose schema for subscribers
+│   ├── /models              
+│   │   └── subscribers.js   
 │   │
-│   ├── /routes              # Route definitions
-│   │   └── subscribers.js   # Defines routes and connects them to controllers
+│   ├── /routes             
+│   │   └── subscribers.js   
 │   │
-│   ├── Data.js              # For Generating random data
+│   ├── Data.js             
 │   │
-│   ├── createDatabase.js    # Script to populate the database with initial data
-│   ├── index.html           # HTML file to show sample output 
-│   └── server.js            # Entry point for starting the server and connecting to the database
+│   ├── createDatabase.js    
+│   ├── index.html           
+│   └── server.js            
 │
-├── .env                     # Environment variables
-├── .gitignore               # Git ignore file
-├── package.json             # Project metadata and dependencies
-└── README.md                # Project documentation
+├── .env                     
+├── .gitignore             
+├── package.json            
+└── README.md               
 
 
 

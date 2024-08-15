@@ -1,28 +1,31 @@
-Youtube-Subscribers
+# Youtube-Subscribers
+
 This project is a javascript backend application that provides APIs for managing YouTube subscribers
 
 The APIs provided by this application include the following:
 
--> GET /subscribers: Returns an array of all subscribers in the database.
+-> `GET /subscribers`: Returns an array of all subscribers in the database.
 
--> GET /subscribers/names: Returns an array of subscribers with only two fields name and subscribedChannel
+-> `GET /subscribers/names`: Returns an array of subscribers with only two fields name and subscribedChannel
 
--> GET /subscribers/:id: Returns the details of a subscriber with the given ID.
+-> `GET /subscribers/:id`: Returns the details of a subscriber with the given ID.
 
+## Prerequisites
 
-Prerequisites
 Before running this application, you must have the following installed:
 
-  faker-js/faker"
-  "dotenv"
-  "express",
-  "mongoose",
-  "nodemon"
-  "swagger-jsdoc",
-  "swagger-ui-express"
+- Express
+- Mongoose
+- Raw data
+- Postman
+- nodemon
+- dotenv
+- swagger-jsdoc
+- swagger-ui-express
+- @faker-js/faker
 
+## Folder Structure
 
-Folder Structures
 
 │
 ├── /src
@@ -38,13 +41,15 @@ Folder Structures
 │   ├── Data.js              # For Generating random data
 │   │
 │   ├── createDatabase.js    # Script to populate the database with initial data
-│   ├── index.html           # HTML file to show sample output (if used)
+│   ├── index.html           # HTML file to show sample output 
 │   └── server.js            # Entry point for starting the server and connecting to the database
 │
 ├── .env                     # Environment variables
 ├── .gitignore               # Git ignore file
 ├── package.json             # Project metadata and dependencies
 └── README.md                # Project documentation
+
+
 
 
 

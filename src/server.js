@@ -4,9 +4,13 @@ const dotenv = require("dotenv").config({ path: "./.env" });
 const router = require("./routes/subscribers");
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
+const cors = require("cors")
 
 const app = express();
 app.use(express.json());
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Swagger Setup
 const swaggerOptions = {

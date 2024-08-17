@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const getData = require("./Data");
 const Subscriber = require("./models/subscribers");
-const dotenv = require("dotenv").config()
+const dotenv = require("dotenv").config({ path: "../.env" });
 
 const connectToDatabase = async () => {
   try {

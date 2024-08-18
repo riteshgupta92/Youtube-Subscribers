@@ -4,7 +4,7 @@ const dotenv = require("dotenv").config({ path: "./.env" });
 const router = require("./routes/subscribers");
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
-const cors = require("cors")
+const cors = require("cors");
 
 const app = express();
 app.use(express.json());
@@ -17,13 +17,13 @@ const swaggerOptions = {
   swaggerDefinition: {
     openapi: "3.0.0", // Updated to OpenAPI 3.0.0
     info: {
-      title: 'YouTube Subscribers API',
-      version: '1.0.0',
-      description: 'API for managing YouTube subscribers',
+      title: "YouTube Subscribers API",
+      version: "1.0.0",
+      description: "API for managing YouTube subscribers",
     },
     servers: [
       {
-        url: "http://localhost:3000",
+        url: "https://youtube-subscribers-kv18.onrender.com",
       },
     ],
   },

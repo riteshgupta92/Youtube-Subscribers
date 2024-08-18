@@ -40,7 +40,7 @@ app.use("/subscribers", router);
 const connectToDatabase = async () => {
   try {
     await mongoose.connect(process.env.DATABASE_URI);
-    console.log("Connected To Database Successfully");
+    console.log("Connected To Database Successfully test");
   } catch (error) {
     console.log("Database Connection Error", error);
     process.exit(1);
